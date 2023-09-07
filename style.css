@@ -1,0 +1,147 @@
+html {
+    background-image: url('image/planche.webp');
+}
+
+.navBar {
+    display: flex;
+    background-color: rgb(134, 111, 72);
+    height: 65px;
+    text-transform: uppercase;
+    border-radius: 33px;
+    margin: 0 7%;
+}
+
+.sousmenu {
+    margin: auto;
+}
+
+.contenu {
+    margin: 0.4% 10%;
+    padding: 1% 0;
+    background-color: rgb(104, 69, 30);
+    border-radius: 15px;
+}
+
+.image {
+    margin: 0 30%;
+    width: 40%;
+
+}
+
+#addImage {
+    display: flex;
+    margin: 3% 10%;
+}
+
+#urlimg {
+    width: 60%;
+}
+
+#button1 {
+    width: 15%;
+    margin-left: auto;
+}
+
+#selecImg {
+    margin: 0 25%;
+    display: flex;
+}
+
+#button2 {
+    width: 45%;
+}
+
+#button3 {
+    width: 45%;
+    margin-left: auto;
+}
+
+#select {
+    text-align: center;
+}
+
+.titre {
+    text-align: center;
+}
+
+#bulles {
+    margin: 0 10%;
+    display: flex;
+    font-size: xx-large;
+}
+
+#bulle1 {
+    background-color: rgb(209, 193, 150);
+    border: 5px black solid;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    height: 47%;
+}
+
+#bulle2 {
+    background-color: rgb(209, 193, 150);
+    margin-top: 2%;
+    border: 5px black solid;
+    border-radius: 25px;
+    height: 47%;
+}
+
+#bulle3 {
+    background-color: rgb(209, 193, 150);
+    margin-left: 1%;
+    flex: 5;
+    border: 5px black solid;
+    border-radius: 25px;
+}
+
+.col1 {
+    flex: 5;
+    margin-right: 1%;
+}
+
+pre {
+    text-decoration-color: white;
+    padding: 5px 6px;
+}
+
+.produits {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.produit {
+    background-color: rgb(78, 52, 23);
+    display: grid;
+    margin: 2% 2%;
+    width: 40%;
+    padding: 3%;
+}
+
+img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+button {
+    background-color: rgb(209, 193, 150);
+    height: 50px;
+}
+
+#forgeron {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.description {
+    background: bisque;
+    padding: inherit;
+}
+
+
+/* presentation */
+
+.presentation {
+    background: bisque;
+    margin: 0px 5%;
+    font-size: 135%;
+}
