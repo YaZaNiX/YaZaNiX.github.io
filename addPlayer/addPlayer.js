@@ -49,5 +49,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
         // ajout de l'element dans la liste
         playerList.appendChild(playerElem)
+
+        nbplayer++
+        document.getElementById("validate-button").innerHTML = "valider les " + nbplayer + " joueur.se.s"
     })
 })

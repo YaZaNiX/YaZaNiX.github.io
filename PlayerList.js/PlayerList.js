@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function(){
         let nameInputList = document.getElementsByClassName("name-input")
         let initInputList = document.getElementsByClassName("init-input")
         
+        nameList = []
+        initList = []
         for (let i = 0; i < nameInputList.length; i++){
             nameList.push(nameInputList[i].value)
             initList.push(initInputList[i].value)
