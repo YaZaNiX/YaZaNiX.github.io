@@ -26,7 +26,17 @@ document.addEventListener("DOMContentLoaded", function(){
         if (event.target == body){
             if (event.code == "Space") {
                 isTimerOn = !isTimerOn
-                console.log(event.target)
+                if (isTimerOn){
+                    if (prepTimer > 0){
+                        nameDisplay.style = "background-color: darkgreen"
+                    }
+                    else{
+                        nameDisplay.style = "background-color: darkred"
+                    }
+                }
+                else{
+                    nameDisplay.style = "background-color: grey"
+                }
             }
 
             if (event.code == "ArrowLeft"){
