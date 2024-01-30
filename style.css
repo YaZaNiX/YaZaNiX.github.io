@@ -27,6 +27,8 @@ body{
     
     display: flex;
     flex-direction: column;
+
+    align-items: center;
 }
 
 #main{
@@ -45,6 +47,8 @@ body{
 }
 
 #player-list{
+    width: 100%;
+
     background-color: #707070;
 
     display: flex;
@@ -100,4 +104,50 @@ body{
 
 .player-span{
     margin: 0 5px;
+}
+
+#validate-button{
+    width: 75%;
+    height: 5%;
+
+    font-size: larger;
+}
+
+#popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: none;
+}
+
+#popup.active{
+    display: flex;
+}
+
+#popup-content{
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #909090;
+    position: absolute;
+}
+
+#popup-exit{
+    padding: 3px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
 }

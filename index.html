@@ -7,6 +7,7 @@
         <script src="addPlayer/addPlayer.js"></script>
         <script src="PlayerList.js/PlayerList.js"></script>
         <script src="timer/Timer.js"></script>
+        <script src="popup/Popup.js"></script>
     </head>
     <body>
         <div id="side">
@@ -29,8 +30,31 @@
 
 
         <div id="main">
-            <div id="player-display">altheana</div>
-            <div id="timer-display">60</div>
+            <div id="player-display"></div>
+            <div id="timer-display"></div>
+            <button id="options-button">options</button>
+        </div>
+
+        <div id="popup">
+            <div id="popup-content">
+                <h1>OPTIONS</h1>
+                <div>
+                    <div>
+                        <span>Temps de réflexion :</span>
+                        <input type="text" id="reflexion-time" placeholder="60" style="width: 30px;">
+                        <span>secondes </span>
+                    </div>
+                    <div>
+                        <span>Temps d'exécution :</span>
+                        <input type="text" id="execute-time" placeholder="30" style="width: 30px;">
+                        <span>secondes </span>
+                    </div>
+                    <br>
+                    <button id="confirm-button">confirmer</button>
+                </div>
+
+                <a href="javascript:void(0)" id="popup-exit">fermer</a>
+            </div>
         </div>
 
     </body>
